@@ -14,7 +14,22 @@ body {
   font-weight: 600;
 }
 
+.about h1 {
+  color: black;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+}
+
 .homepage h1 {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.contact h1 {
+  margin-top: 100px;
   color: black;
   font-family: "Montserrat", sans-serif;
   font-size: 80px;
@@ -57,10 +72,10 @@ h2 {
   margin-top: 100px;
 }
 
-.about h1 {
+.contact h3 {
   color: black;
   font-family: "Nunito Sans", sans-serif;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 500;
 }
 
@@ -72,6 +87,13 @@ h2 {
 }
 
 .homepage p {
+  color: black;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.contact p {
   color: black;
   font-family: "Nunito Sans", sans-serif;
   font-size: 20px;
@@ -91,4 +113,27 @@ h2 {
   background-color: rgba(104, 41, 177, 0.753);
   border-radius: 4px;
   padding: 10px 15px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-bar :nth-child(2) {
+  margin: 0 20px;
+}
+
+.icons {
+  text-decoration: none;
+  color: black;
+}
+
+#contact {
+  background: rgba(127, 66, 196, 0.541);
+  border-radius: 4px;
+  width: 80%;
+  margin: 50px auto;
+  padding: 15px;
 }
