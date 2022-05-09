@@ -1,0 +1,38 @@
+:root {
+  --body-color: rgba(224, 215, 247, 0.877);
+}
+
+body {
+  background: var(--body-color);
+}
+
+h1 {
+  color: rgb(104, 41, 177);
+  font-family: "Montserrat", sans-serif;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+h3,
+h2 {
+  color: rgb(188, 102, 238);
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero h3 {
+  margin-top: 60px;
+}
+
+.btn-branding {
+  font-size: 18px;
+  color: aliceblue;
+  background-color: rgba(104, 41, 177, 0.753);
+  border-radius: 4px;
+  padding: 10px 15px;
+}
