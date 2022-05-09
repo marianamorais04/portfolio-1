@@ -48,6 +48,14 @@ h2 {
   font-weight: 300;
 }
 
+.projects p {
+  color: black;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 50px;
+}
+
 .btn-branding {
   font-size: 18px;
   color: aliceblue;
