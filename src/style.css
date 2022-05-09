@@ -4,16 +4,24 @@
 
 body {
   background: var(--body-color);
+  text-align: center;
 }
 
-h1 {
+.hero h1 {
   color: rgb(104, 41, 177);
   font-family: "Montserrat", sans-serif;
   font-size: 80px;
   font-weight: 600;
 }
 
-h3,
+.homepage h1 {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.hero h3,
 h2 {
   color: rgb(188, 102, 238);
   font-family: "Nunito Sans", sans-serif;
@@ -21,12 +29,23 @@ h2 {
   font-weight: 500;
 }
 
-.hero {
-  text-align: center;
-}
-
 .hero h3 {
   margin-top: 60px;
+}
+
+.homepage h3 {
+  color: black;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  margin-top: 60px;
+}
+
+.homepage p {
+  color: black;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
 }
 
 .btn-branding {
