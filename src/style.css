@@ -48,12 +48,18 @@ h2 {
   font-weight: 300;
 }
 
-.projects p {
+.project h3 {
   color: black;
   font-family: "Nunito Sans", sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 300;
   margin-top: 50px;
+}
+.project img {
+  color: black;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 .btn-branding {
