@@ -139,6 +139,14 @@ h2 {
   color: black;
 }
 
+.link-github {
+  color: black;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
 #contact {
   background: rgba(127, 66, 196, 0.541);
   border-radius: 4px;
